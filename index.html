@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript of Strings</title>
+    <!-- CSS Styles link -->
+     <style>
+        
+     </style>
+    <link rel="stylesheet" href="/styless/styles.css">
+    <!-- JavaScript file link -->
+     <script src="/styless/script.js" defer></script>
+</head>
+<body>
+
+    <h1>JavaScript-- Strings </h1>
+
+    <h2>Strings are for Storing text</h2>
+    <h2>Strings are Written with quotes</h2>
+
+    <div class="container">
+        <!--  -->
+    <p id="String1"></p>
+    </div>
+      <!-- Single or Double Quotes -->
+    <h2>We Can Use Single or Double Quotes</h2>
+    <p id="String2"></p>
+     <!-- Note -->
+    <h3>
+        <b>Note:</b>
+        As We Know String Are Written In Single Or Double Quotes But works the Same manner
+        They is no Difference between then 
+    </h3>
+          <!--  Template Strings-->
+    <h2>JavaScript -Template Strings</h2>
+    <h3>
+        With Back-Ticks, You can use both Single and Double Quotes inside a String:
+    </h3> 
+    <!-- Template Strings  -->
+    <p id="Example3T"> </p>
+
+    <!--  String Length-->
+    <h3>The length of the string is:</h3>
+    <h2>The length Property</h2>
+
+
+    <h2>String Length</h2>
+    <p id="String LengthT"></p>
+    <p id="String LengthN"></p>
+
+    <!-- Escape Characters -->
+     <h1>Escape Characters</h1>
+     <h2>Because strings must be written within quotes, JavaScript will misunderstand this string:</h2>
+     <p id="Escape Characters"></p>
+
+     <!--  \' inserts a single quote in a string: -->
+<h2>The escape sequence \' inserts a single quote in a string.</h2>
+<p id="Escape2"></p>
+
+<!-- \ inserts a backslash in a string:  -->
+ <h2> The escape sequence \' inserts a single in a string.</h2>
+<h2>\\ inserts a backslash in a string:</h2>
+ <p id=" Escape3"></p>
+
+
+ <!--  -->
+ <h2>Breaking Long Lines</h2>
+ <h2>For readability, programmers often like to avoid long code lines.</h2>
+ <h2>A safe way to break up a statement is after an operator:</h2>
+  <p id="Breaking Long Lines"></p>
+
+  <script>
+    document.getElementById('Breaking Long Lines').innerHTML= "Example of  Breaking Long Lines";
+    </script>
+
+<h2>A safe way to break up a string is by using string addition:</h2>
+<p id="String addition"></p>
+
+<script>
+document.getElementById("String addition").innerHTML="Bhanu"+"Chaitanya";
+</script>
+
+<!-- Multiline strings:</  -->
+<p>Templates allow multiline strings:</p>
+ <p id=" multiline strings"></p>
+ <script>
+    let multiline =    ` The Bhanu Chaitanya Done Practice  JavaScript in String `;
+    document.getElementById("multiline strings").innerHTML=multiline;
+ </script>
+
+ <h1>JavaScript Strings as Objects</h1>
+ <h2>Normally, JavaScript strings are primitive values, created from literals: </h2>
+  <p id="Strings as Objects"></p>
+  <script>
+    //   X  is a  String
+    let   x ="Bhanu";
+
+    //   Y  is an object
+    let y = new String("Chaitanya");
+    document.getElementById("Strings as Objects").innerHTML= typeof x + "<br>" + typeof y ;
+  </script>
+
+  <!--  -->
+  <p id="Strings as Objects"></p>
+  <script>
+    //   X  is a  String
+    let   X ="Bhanu";
+
+    //   Y  is an object
+    let Y = new String("Chaitanya9");
+    document.getElementById("Strings as Objects").innerHTML= typeof x + "<br>" + typeof y ;
+  </script>
+
+    
+    
+</body>
+</html>
